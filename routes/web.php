@@ -14,10 +14,13 @@ use Laravel\Octane\Facades\Octane;
 |
 */
 
-$now = now();
+$startedAt = now();
 
-Route::get('/', function () use ($now) {
-    return $now;
+Route::get('/', function () use ($startedAt) {
+    return [
+        'startedAt' => $startedAt,
+        'env' => env('APP_FOO'),
+    ];
 });
 
 Route::get('/concurrently', function () use ($now) {
@@ -26,5 +29,8 @@ Route::get('/concurrently', function () use ($now) {
         fn () => \App\Models\User::all(),
     ]);
 });
+
+
+
 
 
