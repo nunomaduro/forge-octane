@@ -19,7 +19,9 @@ $startedAt = now();
 Route::get('/', function () use ($startedAt) {
     return [
         'startedAt' => $startedAt,
-        'env' => env('APP_FOO'),
+        'env-variable' => $_ENV['APP_FOO'],
+        'env-function' => env('APP_FOO'),
+        'env-config' => config('app.foo'),
     ];
 });
 
