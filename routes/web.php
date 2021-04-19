@@ -23,7 +23,7 @@ Route::get('/', function () use ($startedAt) {
     ];
 });
 
-Route::get('/concurrently', function () use ($now) {
+Route::get('/concurrently', function () {
     return Octane::concurrently([
         fn () => \App\Models\User::all(),
         fn () => \App\Models\User::all(),
