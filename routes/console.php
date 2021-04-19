@@ -20,8 +20,10 @@ Artisan::command('inspire', function () {
 })->purpose('Display an inspiring quote');
 
 Artisan::command('concurrently', function () {
-    Octane::concurrently([
+    $users = Octane::concurrently([
         fn () => \App\Models\User::all(),
         fn () => \App\Models\User::all(),
     ]);
+
+    var_dump($users);
 });

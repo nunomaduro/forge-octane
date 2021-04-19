@@ -18,3 +18,12 @@ $now = now();
 Route::get('/', function () use ($now) {
     return $now;
 });
+
+Route::get('/concurrently', function () use ($now) {
+    return Octane::concurrently([
+        fn () => \App\Models\User::all(),
+        fn () => \App\Models\User::all(),
+    ]);
+});
+
+
