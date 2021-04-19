@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Laravel\Octane\Facades\Octane;
 
 /*
 |--------------------------------------------------------------------------
