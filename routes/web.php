@@ -20,6 +20,7 @@ Route::get('/', function () use ($startedAt) {
     return [
         'startedAt' => $startedAt,
         'env' => env('APP_FOO'),
+        'database' => config('database.connections.mysql'),
     ];
 });
 

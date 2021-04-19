@@ -1273,12 +1273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "58b4fe1e32fc2f53c20094753f460a15327ee198"
+                "reference": "dbe481bdc003298b06d23a3bad2baf46180753f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/58b4fe1e32fc2f53c20094753f460a15327ee198",
-                "reference": "58b4fe1e32fc2f53c20094753f460a15327ee198",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/dbe481bdc003298b06d23a3bad2baf46180753f8",
+                "reference": "dbe481bdc003298b06d23a3bad2baf46180753f8",
                 "shasum": ""
             },
             "require": {
@@ -1339,7 +1339,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-04-17T18:29:29+00:00"
+            "time": "2021-04-19T13:27:17+00:00"
         },
         {
             "name": "laravel/tinker",
