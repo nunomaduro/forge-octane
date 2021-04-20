@@ -10,7 +10,7 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
-        "laravel/octane": "master",
+        "laravel/octane": "dev-feat/auto-rr-binary-updater",
         "laravel/tinker": "^2.5",
         "spiral/roadrunner": "^2.0"
     },

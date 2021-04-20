@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4a420fe6c29c7a273953c76bb91dd2b",
+    "content-hash": "6c9fa67f1e94e9ab02e1749b910be7d6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1101,16 +1101,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.37.0",
+            "version": "v8.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cf4082973abc796ec285190f0603380021f6d26f"
+                "reference": "26a73532c54d2c090692bf2e3e64e449669053ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cf4082973abc796ec285190f0603380021f6d26f",
-                "reference": "cf4082973abc796ec285190f0603380021f6d26f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/26a73532c54d2c090692bf2e3e64e449669053ba",
+                "reference": "26a73532c54d2c090692bf2e3e64e449669053ba",
                 "shasum": ""
             },
             "require": {
@@ -1265,20 +1265,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-04-13T13:49:49+00:00"
+            "time": "2021-04-20T13:50:21+00:00"
         },
         {
             "name": "laravel/octane",
-            "version": "dev-master",
+            "version": "dev-feat/auto-rr-binary-updater",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "39b39f6dd4823d788eeed75934fe9d1c83e01408"
+                "reference": "1439045d9da2eaf8839caa15d63935778976a7cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/39b39f6dd4823d788eeed75934fe9d1c83e01408",
-                "reference": "39b39f6dd4823d788eeed75934fe9d1c83e01408",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/1439045d9da2eaf8839caa15d63935778976a7cd",
+                "reference": "1439045d9da2eaf8839caa15d63935778976a7cd",
                 "shasum": ""
             },
             "require": {
@@ -1297,7 +1297,6 @@
                 "spiral/roadrunner": "^2.0",
                 "swoole/ide-helper": "^4.6"
             },
-            "default-branch": true,
             "bin": [
                 "bin/roadrunner-worker",
                 "bin/swoole-server"
@@ -1339,7 +1338,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-04-19T21:24:09+00:00"
+            "time": "2021-04-20T16:51:37+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -6105,16 +6104,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.4.12",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "d1a91b03885c9c29bc2d88d61a4b10bd1f678156"
+                "reference": "7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/d1a91b03885c9c29bc2d88d61a4b10bd1f678156",
-                "reference": "d1a91b03885c9c29bc2d88d61a4b10bd1f678156",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116",
+                "reference": "7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116",
                 "shasum": ""
             },
             "require": {
@@ -6161,7 +6160,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2021-04-13T15:35:40+00:00"
+            "time": "2021-04-20T16:17:55+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -8155,7 +8154,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "laravel/octane": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
