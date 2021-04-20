@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a86795f658d54cf401097819b420cefb",
+    "content-hash": "b4a420fe6c29c7a273953c76bb91dd2b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1269,16 +1269,16 @@
         },
         {
             "name": "laravel/octane",
-            "version": "dev-fix/rpc-reload-rr-command",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "4ab4e472749d57fc7686a1fc77a2ad75e66d147e"
+                "reference": "39b39f6dd4823d788eeed75934fe9d1c83e01408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/4ab4e472749d57fc7686a1fc77a2ad75e66d147e",
-                "reference": "4ab4e472749d57fc7686a1fc77a2ad75e66d147e",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/39b39f6dd4823d788eeed75934fe9d1c83e01408",
+                "reference": "39b39f6dd4823d788eeed75934fe9d1c83e01408",
                 "shasum": ""
             },
             "require": {
@@ -1297,6 +1297,7 @@
                 "spiral/roadrunner": "^2.0",
                 "swoole/ide-helper": "^4.6"
             },
+            "default-branch": true,
             "bin": [
                 "bin/roadrunner-worker",
                 "bin/swoole-server"
@@ -1338,7 +1339,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-04-19T15:52:51+00:00"
+            "time": "2021-04-19T21:24:09+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -8154,9 +8155,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "laravel/octane": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
