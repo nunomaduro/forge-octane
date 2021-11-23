@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Laravel\Octane\Facades\Octane;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,26 +13,6 @@ use Laravel\Octane\Facades\Octane;
 |
 */
 
-$startedAt = now();
-
-Route::get('/', function () use ($startedAt) {
-    return [
-        'startedAt' => $startedAt,
-        'now' => 'now',
-        'env-variable' => $_ENV['APP_FOO'] ?? 'not defined',
-        'env-function' => env('APP_FOO'),
-        'env-config' => config('app.foo'),
-    ];
+Route::get('/', function () {
+    return view('welcome');
 });
-
-Route::get('/concurrently', function () {
-    return Octane::concurrently([
-        fn () => \App\Models\User::all(),
-        fn () => \App\Models\User::all(),
-    ]);
-});
-
-
-
-
-

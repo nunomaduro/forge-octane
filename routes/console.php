@@ -2,7 +2,6 @@
 
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
-use Laravel\Octane\Facades\Octane;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,12 +17,3 @@ use Laravel\Octane\Facades\Octane;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
-
-Artisan::command('concurrently', function () {
-    $users = Octane::concurrently([
-        fn () => \App\Models\User::all(),
-        fn () => \App\Models\User::all(),
-    ]);
-
-    var_dump($users);
-});
